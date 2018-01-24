@@ -30,7 +30,12 @@ public class Pull : MonoBehaviour
 
     private void UpdateSoundEffect()
     {
-        if (Input.GetButtonUp(pullButton))
+        //if (Input.GetButtonUp(pullButton))
+        //{
+        //    audioSource.Play();
+        //}
+
+        if (Input.GetKey(KeyCode.DownArrow))
         {
             audioSource.Play();
         }
@@ -38,7 +43,16 @@ public class Pull : MonoBehaviour
 
     private void UpdateAnimation()
     {
-        if (Input.GetButton(pullButton))
+        //if (Input.GetButton(pullButton))
+        //{
+        //    animator.SetBool("BeingPulled", true);
+        //}
+        //else
+        //{
+        //    animator.SetBool("BeingPulled", false);
+        //}
+
+        if (Input.GetKey(KeyCode.DownArrow))
         {
             animator.SetBool("BeingPulled", true);
         }

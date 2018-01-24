@@ -1,6 +1,6 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-# Visual Studio 2015
+# Visual Studio 2017
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SuperPinball", "SuperPinball.csproj", "{E7BB5B33-8543-F5CF-3C54-875AD29B6AA8}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SuperPinball.Editor", "SuperPinball.Editor.csproj", "{1F1978E5-30AD-32AB-570E-C020E9278E26}"
